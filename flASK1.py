@@ -8,7 +8,7 @@ def home():
 
 @app.route("/Aboutme")
 def aboutme():
-    return "<p>My name is Shreyash Chaurasia. I'm currently a 3rd year student at MIT ADTU Pune for Blockchain specialization. I've graduated my high school from Navrachana School, Vadodara in the year 2021.<p>"
+    return "<p>My name is Shreyash Chaurasia. I'm currently a 3rd year student at MIT ADTU Pune for Blockchain specialization. I've graduated my high school from Navrachana School, Vadodara in the year 2021. <p>"
 
 @app.route("/interests")
 def interests():
